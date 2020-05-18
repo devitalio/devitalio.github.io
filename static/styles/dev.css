@@ -1,0 +1,21 @@
+h1 {
+    color: orange;
+}
+
+header {
+    border-bottom-style: dashed;
+    text-align: center;
+}
+
+.resources {
+    border-top-style: dashed;
+}
+
+footer {
+    border-top-style: dashed;
+    text-align: center;
+}
+
+a, a:visited, a:active {
+    color: blue;
+}
