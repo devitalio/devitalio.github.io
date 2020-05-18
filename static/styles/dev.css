@@ -15,12 +15,8 @@ header {
 }
 
 .body {
-    margin-top: 3em;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-bottom: 3em;
+    margin: 3em;
     padding: 1em;
-    /* width: 90%;*/
     border: solid thin;
     box-shadow: 0.2em 0.2em 0.1em gray;
 
