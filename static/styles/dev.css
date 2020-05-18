@@ -14,16 +14,31 @@ header {
 
 }
 
-.body {
+.container {
+    display: flex;
+    flex-wrap: wrap;
     margin: 3em;
-    padding: 1em;
-    border: solid thin;
+}
+
+.container >* {
+    flex: 1 1;
+    margin: 1.5em;
     box-shadow: 0.2em 0.2em 0.1em gray;
+    padding: 1em;
+}
+
+.body {
+    flex-basis: 50%;
+    border: solid thin;
 
 }
 
 .resources {
     border-top-style: dashed;
+}
+
+.fun-facts {
+    border: dotted thin;
 }
 
 footer {
