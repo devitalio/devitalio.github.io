@@ -10,11 +10,19 @@ header {
     color: white;
     text-align: center;
     background-image: url("../doljikov-header-bg.jpg");
-    padding: 1.5em;
+    padding: 0.1em;
+
 }
 
 .body {
-    margin: 2em;
+    margin-top: 3em;
+    margin-left: 25%;
+    margin-bottom: 3em;
+    padding: 1em;
+    width: 50%;
+    border: solid thin;
+    box-shadow: 0.2em 0.2em 0.1em gray;
+
 }
 
 .resources {
@@ -24,6 +32,7 @@ header {
 footer {
     border-top-style: dashed;
     text-align: center;
+    padding: 1em;
 }
 
 a, a:visited, a:active {
