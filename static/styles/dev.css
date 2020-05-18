@@ -1,10 +1,20 @@
+body {
+    margin: 0;
+}
+
 h1 {
     color: orange;
 }
 
 header {
-    border-bottom-style: dashed;
+    color: white;
     text-align: center;
+    background-image: url("../doljikov-header-bg.jpg");
+    padding: 1.5em;
+}
+
+.body {
+    margin: 2em;
 }
 
 .resources {
